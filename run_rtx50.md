@@ -30,7 +30,7 @@ python3 render.py -s data/tandt_db/tandt/train/ -m output/train/
 ## 3 render
 
 ```bash
-sudo apt install libglew-dev libassimp-dev libboost-all-dev libgtk-3-dev libglfw3-dev libavdevice-dev libavcodec-dev libxxf86vm-dev libembree-dev
+sudo apt install libglew-dev libassimp-dev libboost-all-dev libgtk-3-dev libopencv-dev libglfw3-dev libavdevice-dev libavcodec-dev libeigen3-dev libxxf86vm-dev libembree-dev
 cd SIBR_viewers
 git checkout fossa_compatibility
 cmake -Bbuild . -DCMAKE_BUILD_TYPE=Release
